@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>firebee</title>
+        <!-- css files -->
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="Normalize.css">
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--Start Header and Nav Bar Section-->
+        <header>
+            <div class="relative bg-[url('./images/Header/HeaderSalesbg.png')] bg-cover bg-center bg-no-repeat w-full h-[74px] bg-red flex justify-center items-center overflow-hidden z-[-2]">
+                <img class="absolute bottom-0 left-0 w-[629px] h-[74px] z-[-1]  max-xl:left-[-20%] max-lg:left-[-30%] max-md:left-[-40%] max-md:hidden" src="./images/Header/leftHeaderSales.png" alt="Sales">
+                <img class="absolute bottom-0 right-0 w-[629px] h-[74px] z-[-1] max-xl:right-[-20%] max-lg:right-[-30%] max-md:right-[-40%] max-md:hidden" src="./images/Header/RightHeaderSales.png" alt="Sales">
+                <img class="absolute bottom-0 right-0 z-[-1] min-[768px]:hidden w-[188px] h-[64px]" src="./images/Header/rightHeaderSalesMobile.png" alt="Sales">
+                <img class="absolute bottom-0 left-0 z-[-1] min-[768px]:hidden w-[188px] h-[64px]" src="./images/Header/leftHeaderSalesMobile.png" alt="Sales">
+                <h1 class="inter text-2xl font-extrabold text-white uppercase tracking-[3px] text-center max-sm:px-[52px]  max-sm:text-lg">Black Friday Sale <span class="max-sm:hidden">-</span> Save $100</h1>
+            </div>
+            <nav class=" bg-white flex justify-between items-center">
+                <div class="flex items-center gap-[50px] max-lg:gap-[25px] py-[40px] pl-[30px] max-md:pl-[17px]">
+                    <div class="flex  items-center gap-[10px] cursor-pointer">
+                        <img src="./images/Header/navBarLogo.svg" alt="navBar logo">
+                        <img src="./images/Header/navBarWordLogo.svg" alt="navBar logo">
+                    </div>
+                    <div id="Menu" class="max-md:fixed duration-500 max-md:top-[-100vh] max-md:h-[100vh] max-md:right-0 max-md:w-full max-md:bg-black max-md:pt-[100px] max-md:z-[1000]">
+                        <ul class="flex items-center gap-[50px] max-lg:gap-[25px] font-light max-md:flex-col max-md:text-white ">
+                            <li class="cursor-pointer text-lg ">How It Works</li>
+                            <li class="cursor-pointer text-lg ">Signals</li>
+                            <li class="cursor-pointer text-lg ">Reviews</li>
+                            <li class="cursor-pointer text-lg ">Blog</li>
+                            <li class="cursor-pointer text-lg min-[768px]:hidden">Login</li>
+                        </ul>
+                        <img id="closeMenu" class="min-[768px]:hidden absolute top-5 right-5 w-[30px] h-[30px] " src="./images/Header/closeMenu.svg" alt="Close Menu Icon">
+                    </div>
+                </div>
+                <div class="flex items-center gap-[35px] max-lg:gap-[23px] pr-[35px] max-md:pr-[31px]">
+                    <button class="bg-[#07C961] px-[38px] py-[19px] rounded-full text-white text-lg font-medium max-[881px]:px-[17px] max-[881px]:py-[6px]">Buy Now</button>
+                    <button class="bg-[#4B93D0] rounded-full text-white w-[53px] h-[53px] flex items-center justify-center max-md:hidden">
+                        <img src="./images/Header/navBarLogin.svg" alt="navBar login">
+                    </button>
+                    <button class="min-[768px]:hidden">
+                        <img id="openMenu" src="./images/Header/BurgerMenu.svg" alt="navBar Menu">
+                    </button>
+                </div>
+            </nav>
+        </header>
+        <!--End Header and Nav Bar Section-->
+        <main>
+            <!-- start products section-->
+            <section class="bg-[#F6F6F6] ">
+                <div class="container py-[35px] relative flex gap-[65px] max-2xl:gap-[10px] max-2xl:flex-col max-2xl:justify-center max-2xl:items-center">
+                    <div class="overflow-hidden">
+                        <img class="absolute top-[50px] left-0 w-[112px] h-[112px] ml-[113px] max-2xl:ml-[26px]" src="./images/Product/ICNIRP.png" alt="ICNIPR image">
+                        <img class="absolute top-[50px] left-0 w-[112px] h-[112px] ml-[246px] max-2xl:ml-[159px]" src="./images/Product/FC.png" alt="FC image">
+                        <img id="productImage" class="w-[628px] h-[392px] mt-[124px] ml-[98px] max-2xl:ml-0 max-md:max-w-[100%] max-md:h-auto" src="./images/Product/prductItem1.png" alt="">
+                        <div class="flex gap-[26px] ml-[98px] max-2xl:ml-0 mt-[83px]">
+                            <div class="w-[100px] h-[100px] max-md:w-[19%] max-md:h-[19%] overflow-hidden cursor-pointer">
+                                <img id="1" class="productImageList w-full h-full object-cover" src="./images/Product/prductItem1.png" alt="product image">
+                            </div>
+                            <div class="w-[100px] h-[100px] max-md:w-[19%] max-md:h-[19%] overflow-hidden cursor-pointer">
+                                <img id="2" class="productImageList w-full h-full object-cover" src="./images/Product/prductItem2.png" alt="product image">
+                            </div>
+                            <div class="w-[100px] h-[100px] max-md:w-[19%] max-md:h-[19%] overflow-hidden cursor-pointer">
+                                <img id="3" class="productImageList w-full h-full object-cover" src="./images/Product/prductItem3.png" alt="product image">
+                            </div>
+                            <div class="w-[100px] h-[100px] max-md:w-[19%] max-md:h-[19%] overflow-hidden cursor-pointer">
+                                <img id="4" class="productImageList w-full h-full object-cover" src="./images/Product/prductItem4.png" alt="product image">
+                            </div>
+                            <div class="w-[100px] h-[100px] max-md:w-[19%] max-md:h-[19%] overflow-hidden cursor-pointer">
+                                <img id="5" class="productImageList w-full h-full object-cover" src="./images/Product/prductItem5.png" alt="product image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-paragraphColor font-light flex flex-col max-md:items-center max-md:mt-[20px] ">
+                        <h1 class="text-4xl font-bold">Firebee Headband</h1>
+                        <div class="flex items-center gap-[12px]">
+                            <img src="./images/Product/start.svg" alt="start icon">
+                            <img src="./images/Product/start.svg" alt="start icon">
+                            <img src="./images/Product/start.svg" alt="start icon">
+                            <img src="./images/Product/start.svg" alt="start icon">
+                            <img src="./images/Product/start.svg" alt="start icon">
+                            <p class="text-lg">267 Reviews</p>
+                        </div>
+                        <p class="text-[16px] mt-[5px] text-center">Order today and receive your Firebee by June 15th, 2021</p>
+                        <div class="borderGradient w-[643px] max-md:w-[95%] py-5 px-[26px] mt-[15px] bg-white">
+                            <div class="flex justify-between items-center flex-wrap">
+                                <h1 class="text-paragraphColor text-2xl font-bold">Firebee Starter Kit</h1>
+                                <div class="flex gap-[10px]">
+                                    <p class="oldPrice relative text-2xl font-light text-paragraphColor">$990.00</p>
+                                    <p class="text-2xl font-light text-paragraphColor">$379.00</p>
+                                </div>
+                            </div>
+                            <button class="gradientBtn mt-[5px] text-white rounded-full w-[244px] h-[30px] cursor-pointer">MOST POPULAR KIT</button>
+                            <div class="flex gap-[15px] mt-[10px] items-start">
+                                <img src="./images/Product/correct.svg" alt="correct icon">
+                                <p class="text-lg font-light">Access to 7 signals (and future signal releases)</p>
+                            </div>
+                            <div class="flex gap-[15px] mt-[10px]">
+                                <img src="./images/Product/correct.svg" alt="correct icon">
+                                <p class="text-lg font-light">Firebee Headband </p>
+                            </div>
+                            <div class="flex gap-[15px] mt-[10px] items-start">
+                                <img src="./images/Product/correct.svg" alt="correct icon">
+                                <p class="text-lg font-light">$19/month membership, first 2 months free</p>
+                            </div>
+                            <p class="mt-[10px] text-[16px] font-light leading-[26px]">
+                                The starter kit is the most affordable way to get started with Firebee. Pay $299 for the Firebee headband and access to the entire Firebee Signal Catalogue for only $19 a month.
+                                <strong class="font-semibold"> Membership can be cancelled anytime. No contracts. Satisfaction guaranteed.</strong>
+                            </p>
+                        </div>
+                        <div class="border-[2px] border-[#C4C4C4] border-solid rounded-[10px] w-[643px] max-md:w-[95%] py-5 px-[26px] mt-[15px] bg-white">
+                            <div class="flex justify-between items-center">
+                                <h1 class="text-paragraphColor text-2xl font-bold">Founder’s Kit</h1>
+                                <div class="flex gap-[10px]">
+                                    <p class="text-2xl font-light text-paragraphColor">$799.00</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-[15px] mt-[10px] items-start">
+                                <img src="./images/Product/correct.svg" alt="correct icon">
+                                <p class="text-lg font-light">Access to 7 signals (and future signal releases)</p>
+                            </div>
+                            <div class="flex gap-[15px] mt-[10px]">
+                                <img src="./images/Product/correct.svg" alt="correct icon">
+                                <p class="text-lg font-light">Firebee Headband </p>
+                            </div>
+                            <div class="flex gap-[15px] mt-[10px]">
+                                <img src="./images/Product/correct.svg" alt="correct icon">
+                                <p class="text-lg font-light">No Monthly Membership</p>
+                            </div>
+                            <p class="mt-[10px] text-[16px] font-light leading-[26px]">
+                                The Founders kit allows you to get the Firebee headband and lifetime access to the entire Firebee Signal Catalogue for a one-time payment. The Founders is kit can be paid through Affirm allowing customers to make small payments of $73 a month.
+                            </p>
+                        </div>
+                        <button class="flex justify-center rounded-full mt-[15px] py-[22px] w-[80%] mx-auto  gap-4 bg-[#07C961]  text-white text-2xl font-semibold">
+                            Add to Cart
+                            <img src="./images/Product/arrow.svg" alt="arrow icon">
+                        </button>
+                        <div class="flex gap-[10px] mt-[30px] mx-auto justify-center">
+                            <img class="max-md:w-[50px] max-md:h-[30px]" src="./images/Product/pay1.png" alt="payment">
+                            <img class="max-md:w-[50px] max-md:h-[30px]" src="./images/Product/pay2.png" alt="payment">
+                            <img class="max-md:w-[50px] max-md:h-[30px]" src="./images/Product/pay3.png" alt="payment">
+                            <img class="max-md:w-[50px] max-md:h-[30px]" src="./images/Product/pay4.png" alt="payment">
+                            <img class="max-md:w-[50px] max-md:h-[30px]" src="./images/Product/pay5.png" alt="payment">
+                            <img class="max-md:w-[50px] max-md:h-[30px]" src="./images/Product/pay6.png" alt="payment">
+                        </div>
+                    </div>
+                </div>
+                <div class="flex gap-[83px] relative top-[-200px] ml-[112px] max-2xl:ml-0 max-2xl:justify-center max-2xl:top-0 max-2xl:left-0 max-md:mx-[17px] pb-[35px]">
+                    <div class="flex flex-col gap-[30px] w-[289px]">
+                        <div class="flex gap-[15px] items-center max-md:flex-wrap max-md:justify-center">
+                            <img src="./images/Product/trust1.svg" alt="trust icon">
+                            <p class="text-lg font-light max-md:text-center">30-day Money-backGuarantee</p>
+                        </div>
+                        <div class="flex gap-[15px] items-center max-md:flex-wrap max-md:justify-center">
+                            <img src="./images/Product/trust2.svg" alt="trust icon">
+                            <p class="text-lg font-light max-md:text-center">Signal Catalogue Updates Included</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-[30px] w-[289px]" >
+                        <div class="flex gap-[15px] items-center max-md:flex-col max-md:justify-center">
+                            <img src="./images/Product/trust3.svg" alt="trust icon">
+                            <p class="text-lg font-light max-md:text-center">Free Shipping within USA</p>
+                        </div>
+                        <div class="flex gap-[15px] items-center max-md:flex-wrap max-md:justify-center">
+                            <img src="./images/Product/trust4.svg" alt="trust icon">
+                            <p class="text-lg font-light max-md:text-center">Customer Support via E-mail, Phone, and Chat</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end products section-->
+            <!-- start money back section-->
+            <section class="container flex justify-center mt-[50px]">
+                <div class="bg-[#FBFCFB] flex gap-[50px] items-center justify-center px-[65px] py-[50px] max-xl:px-[10px] max-lg:flex-col">
+                    <div class="w-[292px] h-[292px]">
+                        <img class="w-full h-full object-cover" src="./images/moneyBack/moneyBack.png" alt="30 days money back image">
+                    </div>
+                    <div class="font-light w-[70%]">
+                        <h1 class="text-5xl max-xl:text-3xl max-lg:text-center">30 Day Money Back Guarantee</h1>
+                        <p class="text-2xl max-xl:text-xl mt-[20px] leading-[36px]">At Firebee we believe in building quality products that actually work. Firebee and its partners have invested over $85 million in research and development to create the highest quality wearable for customers to enjoy. If for any reason if you are not satisfied with your Firebee headband we will happily refund your purchase. </p>
+                    </div>
+                </div>
+            </section>
+            <!-- end money back section-->
+            <!-- start firebee Signals section-->
+            <section class="container relative mt-[80px]">
+                <img class="absolute top-[-40px] max-lg:hidden" src="./images/fireBeeSignal/leftWave.png" alt="wave image">
+                <div>
+                    <h1 class="text-center text-5xl font-light text-paragraphColor">Firebee Signals</h1>
+                    <p class="text-center mt-[20px] text-2xl font-normal text-paragraphColor">A signal for every situation</p>
+                </div>
+                <div class="flex justify-center">
+                    <div class="mt-[56px] grid grid-cols-3 max-xl:grid-cols-2 max-md:grid-cols-1 gap-x-[70px] max-xl:gap-x-[30px] gap-y-[30px] flex-wrap">
+                        <div class="flex gap-[20px] text-paragraphColor rounded-[10px] px-[25px] py-[30px] bg-[#FBFBFD] w-[370px] max-md:w-[345px] max-md:flex-col max-md:items-center z-10">
+                            <img class="w-[100px] h-[100px]" src="./images/fireBeeSignal/signal1.png" alt="signal image">
+                            <p class="text-lg font-light">Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.</p>
+                        </div>
+                        <div class="flex gap-[20px] text-paragraphColor rounded-[10px] px-[25px] py-[30px] bg-[#FBFBFD] w-[370px] max-md:w-[345px] max-md:flex-col max-md:items-center z-10">
+                            <img class="w-[100px] h-[100px]" src="./images/fireBeeSignal/signal2.png" alt="signal image">
+                            <p class="text-lg font-light">Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.</p>
+                        </div>
+                        <div class="flex gap-[20px] text-paragraphColor rounded-[10px] px-[25px] py-[30px] bg-[#FBFBFD] w-[370px] max-md:w-[345px] max-md:flex-col max-md:items-center z-10">
+                            <img class="w-[100px] h-[100px]" src="./images/fireBeeSignal/signal3.png" alt="signal image">
+                            <p class="text-lg font-light">Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.</p>
+                        </div>
+                        <div class="flex gap-[20px] text-paragraphColor rounded-[10px] px-[25px] py-[30px] bg-[#FBFBFD] w-[370px] max-md:w-[345px] max-md:flex-col max-md:items-center z-10">
+                            <img class="w-[100px] h-[100px]" src="./images/fireBeeSignal/signal4.png" alt="signal image">
+                            <p class="text-lg font-light">Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.</p>
+                        </div>
+                        <div class="flex gap-[20px] text-paragraphColor rounded-[10px] px-[25px] py-[30px] bg-[#FBFBFD] w-[370px] max-md:w-[345px] max-md:flex-col max-md:items-center z-10">
+                            <img class="w-[100px] h-[100px]" src="./images/fireBeeSignal/signal5.png" alt="signal image">
+                            <p class="text-lg font-light">Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.</p>
+                        </div>
+                        <div class="flex gap-[20px] text-paragraphColor rounded-[10px] px-[25px] py-[30px] bg-[#FBFBFD] w-[370px] max-md:w-[345px] max-md:flex-col max-md:items-center z-10">
+                            <img class="w-[100px] h-[100px]" src="./images/fireBeeSignal/signal6.png" alt="signal image">
+                            <p class="text-lg font-light">Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.</p>
+                        </div>
+                        <div class="flex gap-[20px] text-paragraphColor rounded-[10px] px-[25px] py-[30px] bg-[#FBFBFD] w-[370px] max-md:w-[345px] max-md:flex-col max-md:items-center z-10">
+                            <img class="w-[100px] h-[100px]" src="./images/fireBeeSignal/signal7.png" alt="signal image">
+                            <p class="text-lg font-light">Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.</p>
+                        </div>
+                        <div class="flex gap-[20px] text-paragraphColor rounded-[10px] px-[25px] py-[30px] bg-[#FBFBFD] w-[370px] max-md:w-[345px] max-md:flex-col max-md:items-center z-10">
+                            <img class="w-[100px] h-[100px]" src="./images/fireBeeSignal/signal8.png" alt="signal image">
+                            <p class="text-lg font-light">Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.</p>
+                        </div>
+                    </div>
+                </div>
+                <img class="absolute bottom-[-40px] right-0 max-lg:hidden" src="./images/fireBeeSignal/rightWave.png" alt="wave image">
+            </section>
+            <!-- end firebee Signals section-->
+            <!-- start What will Firebee do section-->
+            <section class="container bg-[#FBFCFB] mt-[50px] pt-[100px] max-2xl:flex max-2xl:flex-col max-2xl:justify-center max-2xl:items-center max-2xl:gap-[30px]">
+                <div class="max-2xl:order-2">
+                    <h1 class="text-[72px] max-md:text-4xl font-light text-center mb-[25px]">What will Firebee do for me?</h1>
+                    <p class="text-2xl max-md:text-lg font-normal text-center">Firebee will help you gently nudge yourself into a different mental state</p>
+                </div>
+                <img class="inline max-2xl:block max-2xl:order-1" src="./images/whatFireBeeWillDo/woman.png" alt="Woman image">
+                <div class="relative top-[-120px] max-2xl:top-0 inline-flex max-2xl:block justify-center items-start flex-col max-2xl:order-3">
+                    <div class="flex gap-[30px] mb-[30px]">
+                        <img src="./images/whatFireBeeWillDo/correct.svg" alt="correct icon">
+                        <p class="text-3xl font-light max-md:text-lg">Can’t sleep? Turn on the <strong class="bg-[linear-gradient(90deg,#2E034B_0%,#002182_50%,#2E034B_100%)] bg-clip-text text-transparent font-bold">deep sleep</strong> signal </p>
+                    </div>
+                    <div class="flex items-center gap-[30px] mb-[30px]">
+                        <img src="./images/whatFireBeeWillDo/correct.svg" alt="correct icon">
+                        <p class="text-3xl font-light max-md:text-lg">Feeling tired? Turn on the <strong class="bg-[linear-gradient(90deg,#FF225E_0%,#9D2AC6_100%)] bg-clip-text text-transparent font-bold">alert</strong> signal </p>
+                    </div>
+                    <div class="flex items-center gap-[30px] mb-[30px]">
+                        <img src="./images/whatFireBeeWillDo/correct.svg" alt="correct icon">
+                        <p class="text-3xl font-light max-md:text-lg">Feeling anxious? Turn on the <strong class="bg-[linear-gradient(90deg,#8BF2B5_0%,#35C8EB_100%)] bg-clip-text text-transparent font-bold">calm</strong> signal </p>
+                    </div>
+                    <div class="flex items-center gap-[30px] mb-[30px]">
+                        <img src="./images/whatFireBeeWillDo/correct.svg" alt="correct icon">
+                        <p class="text-3xl font-light max-md:text-lg">Feeling unproductive? Turn on the <strong class="bg-[linear-gradient(90deg,#E280DA_0%,#6694EF_100%)] bg-clip-text text-transparent font-bold">focus</strong> signal </p>
+                    </div>
+                    <div class="flex items-center gap-[30px]">
+                        <img src="./images/whatFireBeeWillDo/correct.svg" alt="correct icon">
+                        <p class="text-3xl font-light max-md:text-lg">Feeling blue? Turn on the <strong class="bg-[linear-gradient(90deg,#A34D9F_0%,#275FD0_100%)] bg-clip-text text-transparent font-bold">happy</strong> signal </p>
+                    </div>
+                </div>
+            </section>
+            <!-- end What will Firebee do section-->
+            <!-- start What in the box section-->
+                <section class="mt-[116px] flex flex-col items-center">
+                    <h1 class="text-5xl font-light text-center mb-[30px]">What’s in the box?</h1>
+                    <img class="w-[846px] h-[519px] max-xl:max-w-full  max-xl:h-auto " src="./images/whatIsInBox/box.png" alt="Box Image">
+                    <p class="uppercase text-lg font-medium tracking-[6px]">featured on</p>
+                    <div class="flex gap-[54px] flex-wrap mt-[20px] items-center justify-center">
+                        <img class="w-[110px] h-[60px] max-md:max-w-full max-md:h-auto" src="./images/whatIsInBox/boxLogo1.png" alt="Box Logos">
+                        <img class="w-[110px] h-[60px] max-md:max-w-full max-md:h-auto" src="./images/whatIsInBox/boxLogo2.png" alt="Box Logos">
+                        <img class="w-[110px] h-[60px] max-md:max-w-full max-md:h-auto" src="./images/whatIsInBox/boxLogo3.png" alt="Box Logos">
+                        <img class="w-[110px] h-[60px] max-md:max-w-full max-md:h-auto" src="./images/whatIsInBox/boxLogo4.png" alt="Box Logos">
+                        <img class="w-[110px] h-[60px] max-md:max-w-full max-md:h-auto" src="./images/whatIsInBox/boxLogo5.png" alt="Box Logos">
+                        <img class="w-[110px] h-[60px] max-md:max-w-full max-md:h-auto" src="./images/whatIsInBox/boxLogo6.png" alt="Box Logos">
+                    </div>
+                    <div class="h-[1px] w-[1100px] max-[1100px]:w-[90%] bg-[#C4C4C4] my-[40px]"></div>
+                    <div class="flex gap-[84px] flex-wrap mb-[83px] max-md:pl-[26px] min-[764px]:justify-center ">
+                        <div class="flex gap-[30px] items-center">
+                            <img src="./images/whatIsInBox/correct.svg" alt="correct icon">
+                            <p class="text-3xl font-light max-md:text-xl">1 Firebeeheadband </p>
+                        </div>
+                        <div class="flex gap-[30px] items-center">
+                            <img src="./images/whatIsInBox/correct.svg" alt="correct icon">
+                            <p class="text-3xl font-light max-md:text-xl">1 Charging cable</p>
+                        </div>
+                        <div class="flex gap-[30px] items-center">
+                            <img src="./images/whatIsInBox/correct.svg" alt="correct icon">
+                            <p class="text-3xl font-light max-md:text-xl">1 User manual </p>
+                        </div>
+                    </div>
+                </section>
+            <!-- end What in the box section-->
+            <!-- start Frequently Asked Questions section-->
+            <section class="bg-[#FBFBFB] py-[50px]">
+                <div class="container w-[780px] max-md:w-[90%] text-paragraphColor flex justify-center items-center flex-col">
+                    <h1 class="text-5xl max-md:text-4xl font-light mb-[50px] text-center leading-[46px]">Frequently Asked Questions</h1>
+                    <div class="w-full border-[1px] border-[#3F3631] border-[solid]"></div>
+                    <div id="frequentlyAsked" class="w-full flex justify-center flex-col">
+                        
+                    </div>
+                </div>
+            </section>
+            <div class="max-w-full h-[10px] bg-[linear-gradient(90deg,#8BF2B5_0%,#35C8EB_100%)] "></div>
+            <!-- end Frequently Asked Questions section-->
+        </main>
+        <footer class="relative bg-[#12151A] py-[30px] text-white font-light z-[-11]">
+            <div class="flex flex-wrap pl-[60px] max-md:pl-[25px] z-10">
+                <div class="flex flex-col">
+                    <h3 class="mb-[21px] text-2xl">About</h3>
+                    <a class="text-lg cursor-pointer">Home</a>
+                    <a class="text-lg cursor-pointer">Product</a>
+                </div>
+                <div class="flex flex-col ml-[155px] max-lg:ml-[67px] mr-[232px] max-lg:mr-[67px] ">
+                    <h3 class="mb-[21px] text-2xl">Support</h3>
+                    <a class="text-lg cursor-pointer">Activate</a>
+                    <a class="text-lg cursor-pointer">Login</a>
+                </div>
+                <div class="max-[588px]:mt-[30px] ">
+                    <h3 class="mb-[21px] text-2xl">Find Us On</h3>
+                    <div class="flex gap-5">
+                        <a class="cursor-pointer"><img src="./images/footer/youtube.svg" alt="youtube icon"></a>
+                        <a class="cursor-pointer"><img src="./images/footer/twitter.svg" alt="twitter icon"></a>
+                        <a class="cursor-pointer"><img src="./images/footer/facebook.svg" alt="facebook icon"></a>
+                        <a class="cursor-pointer"><img src="./images/footer/instagram.svg" alt="instagram icon"></a>
+                        <a class="cursor-pointer"><img src="./images/footer/paintrest.svg" alt="paintrest icon"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="my-[30px] w-full h-[1px] bg-[#525252]"></div>
+            <div class="max-lg:flex max-lg:flex-col  px-[60px] max-md:px-[25px] font-light text-[#A4A4A5] text-lg">
+                <img class="inline max-lg:w-[214px] max-lg:h-[50px] max-lg:order-1" src="./images/footer/fireBeeLogo.svg" alt="firebee logo">
+                <p class="float-right max-lg:float-none inline max-lg:block max-lg:order-4 mt-5 max-lg:mt-[45px]">Privacy Policy Terms of Service</p>
+                <p class="mt-[30px] max-md:mt-[23px] max-lg:order-2">Copyright © 2020 Firebee Technologies, Inc. All rights reserved.</p>
+                <p class="text-sm mt-[19px] max-md:mt-[13px] max-lg:order-3">The statements on this page have not been evaluated by the FDA. This product is not intended to diagnose, treat, cure, or prevent any disease.</p>
+                <img class="absolute max-w-full left-0 bottom-0 z-[-10] max-md:hidden" src="./images/footer/footerBackGround.png" alt="footer background">
+                <img class="absolute max-w-full left-0 bottom-0 z-[-10] min-[768px]:hidden" src="./images/footer/footerBackGroundMobile.png" alt="footer background">
+            </div>
+        </footer>
+    </body>
+    <!-- script files -->
+    <script src="main.js"></script>
+    <!-- tailwind files -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</html>
+

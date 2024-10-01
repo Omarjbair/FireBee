@@ -1,0 +1,65 @@
+/* Start Global Rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Poppins", sans-serif;
+}
+.inter{
+    font-family: 'inter';
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  /* Small */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+  /* Medium */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+  /* Large */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.borderGradient {
+    border: 2px solid; /* Border thickness */
+    border-image: linear-gradient(to right,rgba(45, 94, 206, 1),rgba(159, 78, 161, 1)) 1;
+}
+
+.oldPrice::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: #E41E31;
+    transform: rotate(-12deg);
+    -webkit-transform: rotate(-12deg);
+    -moz-transform: rotate(-12deg);
+    -ms-transform: rotate(-12deg);
+    -o-transform: rotate(-12deg);
+    left: 0;
+    top: 50%;
+}
+
+.gradientBtn{
+    background: linear-gradient(90deg, #A34D9F 0%, #275FD0 100%);
+
+}
+
